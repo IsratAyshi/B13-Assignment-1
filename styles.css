@@ -1,0 +1,111 @@
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* shared styles */
+.font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.logo img{
+    max-width: 139px;
+    height: 60px;
+}
+
+.color-green{
+    color: #30B868;
+}
+
+.btn{
+    background-color: #30B868;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    padding: 12px 16px;
+    cursor: pointer;
+
+}
+
+/* main styles */
+
+nav{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 120px;
+}
+
+
+nav .menu{
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    align-items: center;
+}
+
+nav .menu a{
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+
+header #banner{
+    background: url(assets/hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 70px 120px 134px;
+    
+}
+
+#banner .banner-content{
+    max-width: 1360px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 32;
+}
+
+#banner .banner-content .access{
+    background-color: #FFFFFF;
+    max-width: 229px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 1000px;
+    padding: 8px 12px;
+    margin-bottom: 0 auto 16px;
+
+    
+}
+
+#banner .banner-content h1{
+    max-width: 770px;
+    font-size: 72px;
+    line-height: 84px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.banner-content .banner-text{
+    color: #FFFFFF;
+    margin-bottom: 32px;
+    line-height: 24px;
+}
+
+.btn-transparent{
+    color: #FFFFFF;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+}
